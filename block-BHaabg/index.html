@@ -1,15 +1,72 @@
-<!-- ### Exercise
-
-1. Create a simple page having a header, main content, and a footer.
-
-2. Inside the header keep the logo to the left and all the navigation to the right.
-
-3. The header must be fixed at the top of the page.
-
-4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
-
-5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
-
-6. After the gallery section footer will come.
-
-7. Take a circular button at the right bottom corner of the page and keep its position fixed. The button should always take to the top of the page once clicked. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment-II | Position Content</title>
+    <link rel="stylesheet" href="assets/stylesheet/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">Logo</div>
+        <nav class="navigation">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="article">
+        <div class="container">
+          <div class="col col-left">
+            <h2>Article Heading</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+              vehicula cursus risus, in convallis nulla.
+            </p>
+          </div>
+          <div class="col col-right">
+            <img src="assets/media/cats.jpeg" alt="Article Image" />
+          </div>
+        </div>
+      </section>
+      <section class="gallery">
+        <div class="container">
+          <div class="gallery-row">
+            <div class="gallery-col">
+              <img src="assets/media/cali-1.jpg" alt="Gallery Image 1" />
+            </div>
+            <div class="gallery-col">
+              <img src="assets/media/cali-2.jpg" alt="Gallery Image 2" />
+            </div>
+            <div class="gallery-col">
+              <img src="assets/media/cali-3.jpg" alt="Gallery Image 3" />
+            </div>
+          </div>
+          <div class="gallery-row">
+            <div class="gallery-col">
+              <img src="assets/media/cali-1.jpg" alt="Gallery Image 4" />
+            </div>
+            <div class="gallery-col">
+              <img src="assets/media/cali-2.jpg" alt="Gallery Image 5" />
+            </div>
+            <div class="gallery-col">
+              <img src="assets/media/cali-3.jpg" alt="Gallery Image 6" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 Your Company</p>
+      </div>
+    </footer>
+    <a href="#top" id="to-top">↑</a>
+  </body>
+</html>
