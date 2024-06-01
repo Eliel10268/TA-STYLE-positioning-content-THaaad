@@ -1,0 +1,324 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Custom Styles */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 34px;
+  color: #fff;
+  font-family: sans-serif;
+  padding: 18px;
+  margin-bottom: 34px;
+}
+.h1p {
+  font-size: 14px;
+  color: #fff;
+  font-family: sans-serif;
+}
+h3 {
+  font-size: 18px;
+  color: lightskyblue;
+  padding: 24px;
+}
+.h3p {
+  font-size: 12px;
+  padding: 12px;
+  margin: 8px;
+  line-height: 1.7;
+  float: left;
+}
+.part1 {
+  background-color: lightskyblue;
+  padding: 20px;
+  position: relative;
+  margin-bottom: 62px 0;
+}
+
+.part1 .theory {
+  margin: 10px 0;
+  color: #fff;
+}
+.part1 .navbar a {
+  color: #fff;
+}
+
+.part1 h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.part1 p {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.navbar {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.navbar a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.part2 {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.part2 .section {
+  width: 30%;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.part2 .section h3 {
+  margin-bottom: 10px;
+}
+
+.part2 .section p {
+  margin-bottom: 32px;
+}
+
+.part2 a {
+  width: 200px;
+  height: 200px;
+  background-color: lightskyblue;
+  margin-bottom: 50px;
+  text-decoration: none;
+  color: #fff;
+  padding: 12px;
+}
+.part3 {
+  background-color: lightskyblue;
+  text-align: center;
+  padding: 20px;
+}
+
+.part3 h2 {
+  margin-bottom: 10px;
+}
+
+.part3 .images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+h2 {
+  font-size: 24px;
+  padding: 22px;
+  color: #fff;
+}
+.h2p {
+  margin-bottom: 32px;
+  color: #fff;
+}
+.part3 .images img {
+  border-radius: 50%;
+  border: 2px solid white;
+  margin: 32px;
+}
+
+.part4 {
+  padding: 20px;
+}
+
+.part4 h2 {
+  color: lightskyblue;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.h2p4 {
+  color: gray;
+  text-align: center;
+  font-size: 10px;
+  margin-bottom: 32px;
+}
+
+.part4 .section {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 48px;
+}
+
+.part4 .section .content {
+  width: 45%;
+  text-align: center;
+}
+
+.part4 .section img {
+  width: 50%;
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+
+.part4 h4 {
+  font-size: 18px;
+  margin: 16px;
+  color: lightskyblue;
+}
+.part4 p {
+  font-size: 10px;
+  line-height: 1.7;
+  text-align: center;
+  margin-bottom: 32px;
+}
+.part4 a {
+  width: 200px;
+  height: 200px;
+  background-color: lightskyblue;
+  margin-bottom: 50px;
+  text-decoration: none;
+  color: #fff;
+  padding: 12px;
+}
+footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .contact-links a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: black;
+}
